@@ -3,10 +3,16 @@
 <style>
 /* Hex Codes: #6C1B24, #C37B81, #8C3E4D, #FEFADC, #F4F0C6, #CDCDCD */
 body {
-  background-color: #ADADAD;
+  background-color: #CDCDCD;
 }
 
 h1 {
+  color: #F4F0C6;
+  font-family: Helvetica;
+  background-color: #8C3E4D
+}
+
+h2 {
   color: #F4F0C6;
   font-family: Helvetica;
   background-color: #8C3E4D
