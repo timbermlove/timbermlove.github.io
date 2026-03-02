@@ -8,7 +8,7 @@
 
 <h1>Register</h1>
 
-<form action="/register.html" target="_blank" method="get">
+<form action="/register.php" target="_blank" method="POST">
   <label for="fname">First Name:</label><br>
   <input type="text" id="fname" name="fname"><br>
   
