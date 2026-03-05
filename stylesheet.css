@@ -1,9 +1,10 @@
 <html>
 <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+</head> 
 <style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 body {
     margin: 0;
     padding: 20px;
@@ -47,5 +48,4 @@ body {
 
 
 </style>
-</head>
 </html>
