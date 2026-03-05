@@ -4,20 +4,68 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <style>
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Inconsolata", sans-serif;
 }
 
-.cafeimg {
-  background-position: center;
-  background-size: cover;
-  background-image: img src="/img/cafe.jpg";
-  min-height: 75%;
+.main-header {
+    background-color: #000000; /* Black background color */
+    color: white;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Space out the logo, nav, and button */
+    align-items: center; /* Vertically center the items */
+    padding: 10px 20px;
+    /* Optional: Make the header fixed at the top of the viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
-.menu {
-  display: none;
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align list items horizontally */
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove underlines */
+    padding: 10px 15px;
+    display: block; /* Make links block elements for better padding/hover area */
+}
+
+.main-nav ul li a:hover {
+    background-color: #333; /* Darker background on hover */
+}
+
+.action-button {
+    background-color: #04AA6D; /* Example button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.action-button:hover {
+    background-color: #059862; /* Slightly darker button on hover */
+}
+
+/* Adjust main content margin to prevent overlay by the fixed header */
+main {
+    margin-top: 70px; /* Should be equal to or larger than header height */
+    padding: 20px;
 }
 </style>
 </head>
