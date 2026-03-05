@@ -6,25 +6,6 @@
     <link rel="stylesheet" href="styles.css">
     
     <title>Welcome to Wild Rye Baking</title>
-  </head>
-<style>
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
-}
-
-.cafeimg {
-  background-position: center;
-  background-size: cover;
-  background-image: img src="/img/cafe.jpg";
-  min-height: 75%;
-}
-
-.menu {
-  display: none;
-}
-</style>
-</head>
 <body>
 
 <!-- Links (sit on top) -->
@@ -57,10 +38,6 @@ body, html {
   </div>
 
 </header>
-
-  <!-- Add a background color and large text to the whole page -->
-<div class="w3-sand w3-grayscale w3-large">
-
 <!-- About Container -->
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
@@ -75,24 +52,6 @@ body, html {
     <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
   </div>
 </div>
-
-<script>
-// Tabbed Menu
-function openMenu(evt, menuName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
-  }
-  document.getElementById(menuName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
-}
-document.getElementById("myLink").click();
-</script>
 
 </body>
 </html>
