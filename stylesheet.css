@@ -47,10 +47,7 @@ body {
     text-decoration: none;
     padding: 10px 15px;
     display: block;
-}
-
-.main-nav ul li a: hover {
-    background-color: #333; 
+    color: #333; 
     
 }
 .search-container input[type=text] {
@@ -69,10 +66,6 @@ body {
     border: none;
     border-radius: 0 4px 4px 0;
     cursor: pointer;
-}
-
-.search-container button:hover {
-    background-color: #333;
 }
 
 </style>
