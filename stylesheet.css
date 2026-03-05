@@ -7,10 +7,6 @@
 </head> 
 <style>
 }
-@font-face {
-  font-family: 'Iconsolata'; /* The name you choose to use in your CSS */
-  src: local("Inconsolata_Expanded-Regular.ttf"); /* Name of the font as installed on the user's system */
-}
 body {
     margin: 0;
     padding: 0px;
@@ -38,6 +34,8 @@ body {
 .main-nav ul {
     list-style: none;
     font-family: 'Inconsolata', sans-serif;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
     padding: 0;
     display: flex;
@@ -53,13 +51,6 @@ body {
 
 .main-nav ul li a: hover {
     background-color: #333; 
-}
-.aboutus {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    font-family: 'Inconsolata', sans-serif;
-    text-align: center;
     
 }
 .search-container input[type=text] {
@@ -67,12 +58,14 @@ body {
     border: none;
     border-radius: 4px 0 0 4px; /* Rounded corners on left */
     outline: none; /* Removes the default focus glow */
+    font-family: 'Inconsolata', sans-serif;
 }
 
 .search-container button {
     padding: 8px 15px;
     background-color: #000000; /* Button color */
     color: white;
+    font-family: 'Inconsolata', sans-serif;
     border: none;
     border-radius: 0 4px 4px 0; /* Rounded corners on right */
     cursor: pointer;
