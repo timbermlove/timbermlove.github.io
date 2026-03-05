@@ -45,23 +45,22 @@ body {
     background-color: #333; 
 }
 .image-container {
-  position: relative; 
+  position: fixed; 
   width: 100%;
   text-align: center; 
   margin-top: 100px;
   margin-bottom: 100px
 }
 
-.full-width-image {
-  width: 100%;
-  height: auto; 
-  display: block;
-  margin: 0 auto;
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: img scr="cafe.jpg";
+  min-height: 75%;
 }
 
 .overlay-text {
-  position: absolute;
-  display: flex;
+  position: fixed;
   align-items: center;
   justify-content: center;
   top: 50%;
