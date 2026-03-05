@@ -1,33 +1,24 @@
 <html>
 <head>
 <style>
-/* Hex Codes: #6C1B24, #C37B81, #8C3E4D, #FEFADC, #F4F0C6, #CDCDCD */
-body {
-  background-color: #CDCDCD;
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
 }
 
-h1 {
-  color: #F4F0C6;
-  font-family: Helvetica;
+.cafeimg {
+  background-position: center;
+  background-size: cover;
+  background-image: img src="/img/cafe.jpg";
+  min-height: 75%;
 }
 
-h2 {
-  color: #F4F0C6;
-  font-family: Helvetica;
+.menu {
+  display: none;
 }
-
-h3 {
-  color: #F4F0C6;
-  font-family: Helvetica;
-
-p {
- color: #FEFADC;
- font-family: Helvetica;
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+</style>
+</head>
+<body>
 
 </style>
 </head>
