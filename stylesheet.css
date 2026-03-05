@@ -2,7 +2,7 @@
 <head>
 @font-face {
   font-family: 'Iconsolata'; /* The name you choose to use in your CSS */
-  src: local("Inconsolata"); /* Name of the font as installed on the user's system */
+  src: local("Inconsolata_Expanded-Regular.ttf"); /* Name of the font as installed on the user's system */
 }
 }
 
