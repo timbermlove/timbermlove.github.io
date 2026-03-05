@@ -14,14 +14,14 @@
 body {
     margin: 0;
     padding: 0px;
-    font-family: Inconsolata, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     position: fixed;
     text-align: center;
 }
 
 .main-header {
     background-color: #000000;
-    font-family: Inconsolata, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ body {
 
 .main-nav ul {
     list-style: none;
-    font-family: Inconsolata, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -45,7 +45,7 @@ body {
 
 .main-nav ul li a {
     color: white;
-    font-family: Inconsolata, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -58,7 +58,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    font-family: Inconsolata, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     text-align: center;
     
 }
