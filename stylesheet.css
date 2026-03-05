@@ -3,8 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
-<style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 body {
     margin: 0;
     padding: 20px;
