@@ -1,8 +1,8 @@
 <html>
 <head>
 @font-face {
-  font-family: 'Iconsolata'; /* The name you choose to use in your CSS */
-  src: local("Inconsolata_Expanded-Regular.ttf"); /* Name of the font as installed on the user's system */
+  font-family: 'Iconsolata'; 
+  src: local("Inconsolata_Expanded-Regular.ttf");
 }
 </head> 
 <style>
@@ -56,18 +56,18 @@ body {
 .search-container input[type=text] {
     padding: 8px;
     border: none;
-    border-radius: 4px 0 0 4px; /* Rounded corners on left */
-    outline: none; /* Removes the default focus glow */
+    border-radius: 4px 0 0 4px; 
+    outline: none;
     font-family: 'Inconsolata', sans-serif;
 }
 
 .search-container button {
     padding: 8px 15px;
-    background-color: #000000; /* Button color */
+    background-color: #000000;
     color: white;
     font-family: 'Inconsolata', sans-serif;
     border: none;
-    border-radius: 0 4px 4px 0; /* Rounded corners on right */
+    border-radius: 0 4px 4px 0;
     cursor: pointer;
 }
 
