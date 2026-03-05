@@ -2,7 +2,7 @@
 <head>
 @font-face {
   font-family: 'Iconsolata'; 
-  src: local("Inconsolata_Expanded-Regular.ttf");
+  src: url("Inconsolata_Expanded-Regular.ttf");
 }
 </head> 
 <style>
