@@ -4,16 +4,15 @@
   font-family: 'Iconsolata'; /* The name you choose to use in your CSS */
   src: local("Inconsolata_Expanded-Regular.ttf"); /* Name of the font as installed on the user's system */
 }
-}
-
-/* Applying the custom font to an element */
-body {
-  font-family: 'MyCustomFont', sans-serif; /* Specify a fallback font as well */
-}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head> 
 <style>
+}
+@font-face {
+  font-family: 'Iconsolata'; /* The name you choose to use in your CSS */
+  src: local("Inconsolata_Expanded-Regular.ttf"); /* Name of the font as installed on the user's system */
+}
 body {
     margin: 0;
     padding: 20px;
